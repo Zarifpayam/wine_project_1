@@ -13,7 +13,7 @@ We accomplish this project in two steps:
             The findings from this step are stored in the data folder in the repo. Here is an example: 
             
 
-<img src="Charts/hue.png">
+<img src="Charts/hue.png" width=200 height=200>
             
      
   - Step 2: The goal of this step is to predict the class to which a wine will belong, based on its defining measures. 
