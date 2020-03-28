@@ -17,9 +17,22 @@ We accomplish this project in two steps:
             
      
   - Step 2: The goal of this step is to predict the class to which a wine will belong, based on its defining measures. 
-            To do so, we leverage the machine learning library SKlearn in python. The method we use is logistic regression (LR).
-            We choose to keep all the measures or estimators for the LR since the output of the correlation matrix ensured us that there 
-            is not a high correlation between any two pairs of measures. Thus, it was safe to say that the effect of multi-collinearity             would not produce: 
-            
+            To do so, we leveraged the machine learning library SKlearn in python. The method we used is logistic regression (LR).
+            We chose to keep all the measures or estimators for the LR since the output of the correlation matrix ensured us that there 
+            is not a high correlation between any two pairs of measures. Thus, it was safe to say that the effect of multi-collinearity             would not produce. You can see the matrix below: 
+                     
             
  ![](https://github.com/Zarifpayam/wine_project_1/blob/master/Charts/heat.png)
+
+Having fit the LR model on the train dataset, we began evaluating our model by comparing the predicted values with real values in the test dataset. As evidenced by the confusion matrix, it seems like the model has done a good job of predicting classes.
+- Out of the 25 rows(samples) that belonged to the Class1, 24 of them were predicted correctly
+- Out of the 24 rows(samples) that belonged to the Class2, 22 of them were predicted correctly
+- Out of the 14 rows(samples) that belonged to the Class1, 13 of them were predicted correctly
+
+Looking at the coefficients for the class1, it becomes apparent that flavanoids is a determinant factor for a wine to become class1. Its coefficient is 0.54.
+
+
+The same observation in class2 reveals the sheer influence of alcohol in the determination of this class, with a coeficient equal to 0.599
+
+As for the class3, it is mostly influenced by the flavanoids with a coefficient of -0.93. This means the less flavanoids in a wine, the higher the chance that it belongs to class3.            
+         
