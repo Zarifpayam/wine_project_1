@@ -17,6 +17,8 @@ We accomplish this project in two steps:
             We can easily infer through this image that Class3 is marked by having low amount of Hue.
             
      
+     
+     
   - Step 2: The goal of this step is to predict the class to which a wine will belong, based on its defining measures. 
             To do so, we leveraged the machine learning library SKlearn in python. The method we used is logistic regression (LR).
             We chose to keep all the measures or estimators for the LR since the output of the correlation matrix ensured us that there 
