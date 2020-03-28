@@ -14,6 +14,7 @@ We accomplish this project in two steps:
             
 
 <img src="Charts/hue.png" width=400 height=400>
+            We can easily infer through this image that Class3 is marked by having low amount of Hue.
             
      
   - Step 2: The goal of this step is to predict the class to which a wine will belong, based on its defining measures. 
