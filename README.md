@@ -13,7 +13,7 @@ We accomplish this project in two steps:
             The findings from this step are stored in the data folder in the repo. Here is an example: 
             
 
-<img src="Charts/hue.png" width=200 height=200>
+<img src="Charts/hue.png" width=400 height=400>
             
      
   - Step 2: The goal of this step is to predict the class to which a wine will belong, based on its defining measures. 
@@ -23,4 +23,4 @@ We accomplish this project in two steps:
             not produce: 
             
             
-            ![histogram of alcohol in wine by class](https://github.com/Zarifpayam/wine_project_1/blob/master/Charts/heat.png)
+ ![histogram of alcohol in wine by class](https://github.com/Zarifpayam/wine_project_1/blob/master/Charts/heat.png)
