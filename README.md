@@ -1,8 +1,11 @@
 # wine_project_1
 
-| Vahid Zarifpayam | 2020-03-28 |
+
+| Name | Date |
 |:-------|:---------------|
-|Your name here | Completion date|
+|Vahid Zarifpayam |  2020-03-28 |
+
+-----
 
 -----
 
