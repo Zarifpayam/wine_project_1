@@ -1,4 +1,11 @@
 # wine_project_1
+
+| Vahid Zarifpayam | 2020-03-28 |
+|:-------|:---------------|
+|Your name here | Completion date|
+
+-----
+
 This project tries to generate more insight about how wines are classified based on a few metrics that are measurable using precise tools. 
 Some of the measures include Hue, Color intensity, Proline (which is a type of protein), Alcohol, which are pretty self explanatory. The dataset
 we use is a Toy dataset courtasy of SKlearn package in python. It is composed, entirely, of numbers. There are no strings. However, the class
